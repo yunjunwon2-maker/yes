@@ -2,6 +2,12 @@
 
 아이폰 Safari와 PC 브라우저에서 보는 Streamlit MVP입니다. 컴퓨터에 Python, Git, VS Code를 설치할 필요가 없습니다. GitHub에 파일을 올리고 Streamlit Community Cloud에서 실행합니다.
 
+**배포된 앱:** https://pocketfolio-yunjunwon2.streamlit.app/
+
+**GitHub 저장소:** https://github.com/yunjunwon2-maker/yes
+
+이 저장소는 이미 배포되어 있습니다. 아래 업로드·배포 절차는 나중에 새 저장소에 복제할 때 참고하세요.
+
 ## 포함된 기능
 
 - GOOGL / NEE / SPY / SCHD / SGOV: 최신 제공 가격, 오늘·1주·1개월 수익률, RSI(14), 20/60/200일 이동평균, 변동성, 최근 1년 MDD

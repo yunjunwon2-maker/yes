@@ -7,7 +7,7 @@ from metrics import summarize
 
 st.set_page_config(page_title="Pocketfolio | 투자 대시보드", page_icon="◈", layout="wide")
 st.markdown('''<style>
-.block-container{max-width:1120px;padding-top:2rem;padding-bottom:3rem}
+.block-container{max-width:1120px;padding-top:4.5rem;padding-bottom:3rem}
 .eyebrow{color:#66e3c4;letter-spacing:.18em;font-size:.75rem;font-weight:700}
 .asset{background:#151d30;border:1px solid #2a3650;border-radius:18px;padding:22px;margin:12px 0 22px;color:#e8edf5}
 .top{display:flex;justify-content:space-between;align-items:center;gap:12px}.ticker{font-size:1.3rem;font-weight:750}
@@ -15,7 +15,7 @@ st.markdown('''<style>
 .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px 10px}
 .label{color:#aab7cd;font-size:.76rem;margin-bottom:4px}.value{font-size:1.05rem;font-weight:650}
 .up{color:#66e3c4}.down{color:#ff8c9b}.neutral{color:#e8edf5}.line{border-top:1px solid #2a3650;margin:18px 0}
-@media(max-width:600px){.block-container{padding:1.2rem 1rem}.asset{padding:18px}.price{font-size:1.9rem}.grid{gap:16px 7px}.value{font-size:.95rem}h1{font-size:1.9rem!important}}
+@media(max-width:600px){.block-container{padding:4rem 1rem 2rem}.asset{padding:18px}.price{font-size:1.9rem}.grid{gap:16px 7px}.value{font-size:.95rem}h1{font-size:1.9rem!important}}
 </style>''', unsafe_allow_html=True)
 
 def fmt(value, suffix="", signed=False):
