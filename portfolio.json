@@ -1,0 +1,7 @@
+{
+  "GOOGL": {"shares": 0, "average_price": 0, "target_weight": 20},
+  "NEE": {"shares": 0, "average_price": 0, "target_weight": 20},
+  "SPY": {"shares": 0, "average_price": 0, "target_weight": 20},
+  "SCHD": {"shares": 0, "average_price": 0, "target_weight": 20},
+  "SGOV": {"shares": 0, "average_price": 0, "target_weight": 20}
+}

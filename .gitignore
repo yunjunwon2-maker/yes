@@ -3,3 +3,8 @@ __pycache__/
 .venv/
 .streamlit/secrets.toml
 .pytest_cache/
+runtime/
+*.sqlite3
+*.sqlite3-*
+portfolio.private.json
+*-backup.json
